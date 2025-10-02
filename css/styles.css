@@ -17,7 +17,7 @@ body {
     background-color: #1F2937;
 }
 
-.site-intro-wrapper, .app-features {
+.site-intro-wrapper, .app-features, .core-features-text {
     width: 1280px;
     margin: 0 auto;
 }
@@ -118,4 +118,13 @@ h2 {
 .feature-image-container img {
     width: 100%;
     height: 100%;
+}
+
+.core-features {
+    background-color: #E5E7EB;
+    padding: 125px 0;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
 }
