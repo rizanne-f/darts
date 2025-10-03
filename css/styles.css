@@ -13,3 +13,137 @@ body {
     height: 50px;
 }
 
+.site-intro, footer {
+    background-color: #1F2937;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.hero-secondary-text, ul a, .download-subheading {
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 128px 0;
+}
+
+.hero-item {
+    flex: 1;
+}
+
+.app-desc > * {
+    margin-bottom: 12px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.app-screen, .feature-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button, .app-download {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.system-features, .core-features-text {
+    padding: 0 128px;
+}
+
+h2 {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 36px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.feature-item {
+    width: 200px;
+    text-align: center;
+}
+
+.feature-image-container {
+    height: 200px;
+    margin-bottom: 18px;
+    padding: 18px;
+    border: 3px solid #3882F6;
+    border-radius: 18px;
+}
+
+.core-features {
+    background-color: #E5E7EB;
+}
+
+.core-features-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.app-download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border-radius: 8px;
+    padding: 18px 64px;
+}
+
+.download-heading {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.download-button-container button {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    padding: 48px 0;
+    color: #E5E7EB;
+    text-align: center;
+}
