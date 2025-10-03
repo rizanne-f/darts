@@ -93,7 +93,7 @@ h2 {
 .features-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 128px;
+    margin-bottom: 100px;
 }
 
 .feature-item {
